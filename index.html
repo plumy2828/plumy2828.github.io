@@ -15,3 +15,13 @@ function ShowTime(){
 <body onload="ShowTime()">
 <div id="showbox"></div>
 </body>
+
+<script language="JavaScript">
+function ShowTime(){
+　document.getElementById('showbox').innerHTML = new Date();
+　setTimeout('ShowTime()',1000);
+}
+</script>
+<body onload="ShowTime()">
+<div id="showbox"></div>
+</body>
